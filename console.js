@@ -6,4 +6,4 @@ function main() {
   return null;
 }
 
-// ---
+console.log("zegnam!")
