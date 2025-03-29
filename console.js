@@ -1,9 +1,15 @@
-// to jest komentarz
-console.log("Dzień Dobry!")
-console.log("Dobry wieczor!") // 2nd time!
-
-function main() {
-  return null;
+function logInfo(message) {
+    console.log(`INFO: ${message}`);
 }
 
-console.log("zegnam!")
+function logWarning(message) {
+    console.warn(`WARNING: ${message}`);
+}
+
+function logError(message) {
+    console.error(`ERROR: ${message}`);
+}
+
+logInfo("Aplikacja została uruchomiona");
+logWarning("Użycie pamięci jest wysokie");
+logError("Nie można znaleźć pliku konfiguracyjnego");
