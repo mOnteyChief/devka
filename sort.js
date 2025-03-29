@@ -1,3 +1,7 @@
-const sortowanie = ['1', '2', '3', '4', '5'];
-sortowanie.sort()
-console.log(sortowanie)
+function sortArray(arr) {
+    return arr.sort((a, b) => a - b);
+}
+
+const numbers = [5, 3, 8, 1, 2];
+const sortedNumbers = sortArray(numbers);
+console.log("Posortowana tablica:", sortedNumbers);
